@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 16
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Towels Synth - Standalone Plugin", "Towels Synth_StandalonePlugin.vcxproj", "{6981613F-42C9-C695-4394-5B7BE91BE5FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748} = {0418033A-81A6-80D4-EE84-4AF0FBF83748}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Towels Synth - VST3", "Towels Synth_VST3.vcxproj", "{049EBF6A-D5C0-DE4B-E473-4917C16B6B26}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748} = {0418033A-81A6-80D4-EE84-4AF0FBF83748}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Towels Synth - Shared Code", "Towels Synth_SharedCode.vcxproj", "{0418033A-81A6-80D4-EE84-4AF0FBF83748}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{049EBF6A-D5C0-DE4B-E473-4917C16B6B26}.Debug|x64.ActiveCfg = Debug|x64
+		{049EBF6A-D5C0-DE4B-E473-4917C16B6B26}.Debug|x64.Build.0 = Debug|x64
+		{049EBF6A-D5C0-DE4B-E473-4917C16B6B26}.Release|x64.ActiveCfg = Release|x64
+		{049EBF6A-D5C0-DE4B-E473-4917C16B6B26}.Release|x64.Build.0 = Release|x64
+		{6981613F-42C9-C695-4394-5B7BE91BE5FD}.Debug|x64.ActiveCfg = Debug|x64
+		{6981613F-42C9-C695-4394-5B7BE91BE5FD}.Debug|x64.Build.0 = Debug|x64
+		{6981613F-42C9-C695-4394-5B7BE91BE5FD}.Release|x64.ActiveCfg = Release|x64
+		{6981613F-42C9-C695-4394-5B7BE91BE5FD}.Release|x64.Build.0 = Release|x64
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748}.Debug|x64.ActiveCfg = Debug|x64
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748}.Debug|x64.Build.0 = Debug|x64
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748}.Release|x64.ActiveCfg = Release|x64
+		{0418033A-81A6-80D4-EE84-4AF0FBF83748}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
