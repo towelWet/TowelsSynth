@@ -2,7 +2,7 @@
 
 Welcome to the Towels Synth repository. This is a hands-on project to build an additive synthesizer, a powerful tool that uses multiple sine waves for sound generation.
 
-## 🚀 Getting Started - Follow these steps:
+## 🚀 Steps:
 
 1. Visit the [Audio Programming repository](https://github.com/towelWet/Audio-Programming).
 2. Download the necessary components from [Google Drive](https://drive.google.com/drive/folders/1UHS2dEdoqs9llrbmAJpZKOx0uynsae-M?usp=sharing).
